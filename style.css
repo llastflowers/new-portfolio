@@ -1,9 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 body {
-  display: flex;
-  flex-direction: column;
   background-color: rgb(241, 241, 241);
+  color: rgb(85, 85, 85);
 }
 
 header {
@@ -12,11 +25,41 @@ header {
 }
 
 h1 {
-  font-family: 'Kalam', cursive;
-  color: rgb(61, 61, 61);
+  margin: 2% auto;
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 30px;
+}
+
+p, li {
+  font-family: 'Karla', sans-serif;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
 }
 
 .avatar {
-  margin: 5%;
-  height: 400px;
+  margin: 0 1%;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 400px;
+}
+
+.about {
+  margin: 0 1%;
+  width: 400px;
+}
+
+.skills {
+  margin: 0 1%;
+  width: 400px;
 }
