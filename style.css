@@ -85,3 +85,10 @@ p, li {
   margin: 0 1.5%;
   width: 450px;
 }
+
+span {
+  margin: 10% auto;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+}
