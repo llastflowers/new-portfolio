@@ -27,19 +27,19 @@ nav {
   justify-content: center;
 }
 
-a {
+nav a {
   margin: 20px 30px;
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
   color: rgb(85, 85, 85);
 }
 
-a:hover {
+nav a:hover {
   text-decoration: none;
   color: rgb(182, 182, 182);
 }
 
-a:active {
+nav a:active {
   text-decoration: none;
   color: rgb(85, 85, 85);
 }
@@ -86,7 +86,7 @@ p, li {
   width: 450px;
 }
 
-span {
+.coming-soon {
   margin: 10% auto;
   text-align: center;
   font-family: 'Nunito', sans-serif;

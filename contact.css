@@ -1,0 +1,29 @@
+.contact {
+  margin: 4% auto;
+}
+
+.contact div {
+  margin: 20px;
+}
+
+.contact img {
+  width: 30px;
+  margin: 0 20px 0 40px;
+}
+
+.contact a, span {
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: rgb(85, 85, 85);
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
