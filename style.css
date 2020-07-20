@@ -28,23 +28,18 @@ nav {
 }
 
 a {
-  margin: 20px;
+  margin: 20px 30px;
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
-  // font-weight: bold;
   color: rgb(85, 85, 85);
 }
 
 a:hover {
   text-decoration: none;
+  color: rgb(182, 182, 182);
 }
 
 a:active {
-  text-decoration: none;
-  color: rgb(85, 85, 85);
-}
-
-a:visited {
   text-decoration: none;
   color: rgb(85, 85, 85);
 }
