@@ -3,15 +3,9 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varta:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 
 body {
@@ -20,14 +14,43 @@ body {
 }
 
 header {
+  margin: 3% auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 h1 {
-  margin: 2% auto;
+  margin: 0 auto;
   font-family: 'Baloo Chettan 2', cursive;
   font-size: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin: 20px;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  // font-weight: bold;
+  color: rgb(85, 85, 85);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
 }
 
 h2 {
@@ -35,31 +58,39 @@ h2 {
   font-size: 30px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 30px;
+}
+
 p, li {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 .about-container {
   display: flex;
   justify-content: center;
+  margin: 4% auto;
 }
 
 .avatar {
-  margin: 0 1%;
+  margin: 0 1.5%;
   display: flex;
   justify-content: center;
 }
 
 .avatar img {
-  width: 400px;
+  width: 450px;
 }
 
 .about {
-  margin: 0 1%;
+  margin: 0 1.5%;
   width: 400px;
 }
 
 .skills {
-  margin: 0 1%;
-  width: 400px;
+  margin: 0 1.5%;
+  width: 450px;
 }
