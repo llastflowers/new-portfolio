@@ -1,29 +1,27 @@
-.contact {
-  margin: 4% auto;
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.contact div {
-  margin: 20px;
-}
-
-.contact img {
-  width: 30px;
-  margin: 0 20px 0 40px;
-}
-
-.contact a, span {
+.projects a {
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
   font-size: 25px;
   color: rgb(85, 85, 85);
 }
 
-.contact a:hover {
+.projects a:hover {
   text-decoration: none;
   color: rgb(182, 182, 182);
 }
 
-.contact a:active {
+.projects a:active {
   text-decoration: none;
   color: rgb(85, 85, 85);
+}
+
+img {
+  margin: 0 auto 5% auto;
+  width: 65%;
 }
