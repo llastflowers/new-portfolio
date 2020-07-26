@@ -258,16 +258,16 @@ li {
 @media (max-width: 380px) {
   
   h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 1.5em;
   }
 
   nav a {
     margin: 2.5% 0.8%;
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   .avatar img {
@@ -276,20 +276,20 @@ li {
   }
 
   ul {
-    line-height: 1.1em;
+    line-height: 1.3em;
   }
 
   p, li {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .about {
     margin: 2% auto;
-    width: 250px;
+    width: 300px;
   }
   
   .skills {
     margin: 2% auto;
-    width: 250px;
+    width: 300px;
   }
 }
