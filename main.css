@@ -255,7 +255,7 @@ li {
   }
 }
 
-@media (max-width: 380px) {
+@media (min-width: 380px) {
   
   h1 {
     font-size: 2em;
@@ -276,7 +276,7 @@ li {
   }
 
   ul {
-    line-height: 1.9em;
+    line-height: 1.8em;
   }
 
   p, li {
