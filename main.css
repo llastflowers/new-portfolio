@@ -255,7 +255,7 @@ li {
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 320px) {
   
   h1 {
     font-size: 2em;
