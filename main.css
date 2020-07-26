@@ -255,10 +255,10 @@ li {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 380px) {
   
   h1 {
-    font-size: 2em;
+    font-size: 1.2em;
   }
 
   h2 {
