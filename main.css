@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+body {
+  background-color: rgb(241, 241, 241);
+  color: rgb(85, 85, 85);
+}
+
+header {
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 2.5em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 1% 1.6%;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: rgb(85, 85, 85);
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+}
+
+nav a:active {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+
+h2 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 1.5em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+p,
+li {
+  font-family: "Nunito", sans-serif;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin: 4% auto;
+}
+
+.avatar {
+  margin: 0 1.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 450px;
+  height: 489.13px;
+}
+
+.about {
+  margin: 0 1.5%;
+  width: 400px;
+}
+
+.skills {
+  margin: 0 1.5%;
+  width: 450px;
+}
+
+@media (max-width: 1370px) {
+
+  .avatar img {
+    margin-top: 30%;
+    width: 350px;
+    height: 380.43px;
+  }
+
+  ul {
+    line-height: 1.85em;
+  }
+
+  p, li {
+    font-size: 1.2em;
+  }
+
+  .about {
+    margin: 1% 2%;
+    width: 375px;
+  }
+  
+  .skills {
+    margin: 1% 2%;
+    width: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  header {
+    margin: 4.75% auto;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  nav a {
+    margin: 3.5% 1.5%;
+    font-size: 1.1em;
+  }
+
+  .avatar img {
+    margin-top: 0;
+    width: 400px;
+    height: 434.78px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4% auto;
+  }
+
+  ul {
+    line-height: 1.8em;
+  }
+
+  p, li {
+    font-size: 1.2em;
+  }
+
+  .about {
+    margin: 1% auto;
+    width: 620px;
+  }
+  
+  .skills {
+    margin: 1% auto;
+    width: 620px;
+  }
+
+}
+
+@media (max-width: 770px) {
+
+  header {
+    margin: 4% auto;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  nav a {
+    margin: 3% 1.5%;
+  }
+
+  .avatar img {
+    width: 400px;
+    height: 434.78px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4% auto;
+  }
+
+  ul {
+    line-height: 1.8em;
+  }
+
+  p, li {
+    font-size: 1.2em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 500px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 500px;
+  }
+  
+}
+
+@media (max-width: 570px) {
+  
+  h1 {
+    font-size: 1.35em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  nav a {
+    margin: 2.5% 1.5%;
+    font-size: 0.85em;
+  }
+
+  .avatar img {
+    width: 250px;
+    height: 271.74px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4% auto;
+  }
+
+  ul {
+    line-height: 1.4em;
+  }
+
+  p, li {
+    font-size: 0.85em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 300px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  
+  h1 {
+    font-size: 1.1em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  nav a {
+    margin: 2.5% 0.8%;
+    font-size: 0.7em;
+  }
+
+  .avatar img {
+    width: 210px;
+    height: 228.26px;
+  }
+
+  ul {
+    line-height: 1.1em;
+  }
+
+  p, li {
+    font-size: 0.7em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 250px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 250px;
+  }
+}
