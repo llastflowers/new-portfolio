@@ -1,5 +1,8 @@
 .contact {
-  margin: 4% auto;
+  margin: 6% auto;
+  border: rgb(216, 216, 216) dashed 2px;
+  padding: 40px;
+  border-radius: 7px;
 }
 
 .contact div {
@@ -17,6 +20,7 @@
   font-family: 'Nunito', sans-serif;
   font-size: 1.25em;
   color: rgb(85, 85, 85);
+  line-height: 2em;
 }
 
 .contact a:hover {
