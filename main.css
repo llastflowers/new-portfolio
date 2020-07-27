@@ -99,8 +99,7 @@ li {
   }
 
   nav a {
-    margin: 3.5% 1.5%;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .avatar img {
@@ -144,8 +143,7 @@ li {
   }
 
   nav a {
-    margin: 3.5% 1.5%;
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .avatar img {
@@ -192,10 +190,6 @@ li {
     font-size: 1.8em;
   }
 
-  nav a {
-    margin: 3% 1.5%;
-  }
-
   .avatar img {
     width: 400px;
     height: 434.78px;
@@ -239,7 +233,7 @@ li {
 
   nav a {
     margin: 2.5% 1.5%;
-    font-size: 0.85em;
+    font-size: 0.75em;
   }
 
   .avatar img {
