@@ -90,14 +90,32 @@ li {
 
 @media (max-width: 1370px) {
 
+  header {
+    margin: 4% auto;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  nav a {
+    margin: 3.5% 1.5%;
+    font-size: 1.1em;
+  }
+
   .avatar img {
-    margin-top: 30%;
-    width: 350px;
-    height: 380.43px;
+    width: 450px;
+    height: 489.13px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
 
   ul {
-    line-height: 1.85em;
+    line-height: 1.8em;
   }
 
   p, li {
@@ -105,13 +123,13 @@ li {
   }
 
   .about {
-    margin: 1% 2%;
-    width: 375px;
+    margin: .75% auto;
+    width: 900px;
   }
   
   .skills {
-    margin: 1% 2%;
-    width: 400px;
+    margin: .75% auto;
+    width: 900px;
   }
 }
 
@@ -131,7 +149,6 @@ li {
   }
 
   .avatar img {
-    margin-top: 0;
     width: 400px;
     height: 434.78px;
   }
@@ -140,7 +157,6 @@ li {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 4% auto;
   }
 
   ul {
@@ -153,12 +169,12 @@ li {
 
   .about {
     margin: 1% auto;
-    width: 620px;
+    width: 650px;
   }
   
   .skills {
     margin: 1% auto;
-    width: 620px;
+    width: 650px;
   }
 
 }
@@ -167,6 +183,10 @@ li {
 
   header {
     margin: 4% auto;
+  }
+
+  h1 {
+    font-size: 2em;
   }
 
   h2 {
@@ -212,7 +232,7 @@ li {
 @media (max-width: 570px) {
   
   h1 {
-    font-size: 1.35em;
+    font-size: 1.7em;
   }
 
   h2 {
@@ -246,12 +266,12 @@ li {
 
   .about {
     margin: 2% auto;
-    width: 300px;
+    width: 350px;
   }
   
   .skills {
     margin: 2% auto;
-    width: 300px;
+    width: 350px;
   }
 }
 
@@ -291,5 +311,44 @@ li {
   .skills {
     margin: 2% auto;
     width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  nav a {
+    margin: 2.5% 1%;
+    font-size: .75em;
+  }
+
+  .avatar img {
+    width: 210px;
+    height: 228.26px;
+  }
+
+  ul {
+    line-height: 1.15em;
+  }
+
+  p, li {
+    font-size: .75em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 275px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 275px;
   }
 }
