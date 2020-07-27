@@ -31,13 +31,6 @@
 
 @media (max-width: 770px) {
   .contact {
-    margin: 5% auto;
-  }
-  
-  .contact div {
-    margin: 30px;
-  }
-  .contact a, span {
-    font-size: 1.1em;
+    margin: 10% auto;
   }
 }
