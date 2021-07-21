@@ -61,6 +61,10 @@ li {
   font-family: "Nunito", sans-serif;
 }
 
+strong {
+  text-shadow: 0.5px 0 rgb(85, 85, 85);
+}
+
 .about-container {
   display: flex;
   justify-content: center;
