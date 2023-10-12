@@ -12,9 +12,10 @@
   margin: 0 20px 0 40px;
 }
 
-.contact a, span {
+.contact a,
+span {
   text-decoration: none;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.25em;
   color: rgb(85, 85, 85);
   line-height: 2em;
@@ -33,5 +34,9 @@
 @media (max-width: 770px) {
   .contact {
     margin: 10% auto;
+  }
+  .contact a,
+  span {
+    font-size: 1em;
   }
 }
