@@ -4,6 +4,8 @@
 
 .contact div {
   margin: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .contact img {
@@ -37,6 +39,6 @@ span {
   }
   .contact a,
   span {
-    font-size: 1em;
+    font-size: 1.15em;
   }
 }
