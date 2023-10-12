@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
+body {
+  background-color: rgb(241, 241, 241);
+  color: rgb(85, 85, 85);
+}
+
+header {
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 auto;
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 2.5em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  margin: 1% 1.6%;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: rgb(85, 85, 85);
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+}
+
+nav a:active {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+
+h2 {
+  font-family: "Baloo Chettan 2", cursive;
+  font-size: 1.5em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+p,
+li {
+  font-family: "Nunito", sans-serif;
+}
+
+strong {
+  text-shadow: 0.5px 0 rgb(85, 85, 85);
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  margin: 4% auto;
+}
+
+.avatar {
+  margin: 0 1.5%;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar img {
+  width: 450px;
+  height: 489.13px;
+}
+
+.about {
+  margin: 0 1.5%;
+  width: 400px;
+}
+
+.skills {
+  margin: 0 1.5%;
+  width: 450px;
+}
+
+@media (max-width: 1370px) {
+
+  header {
+    margin: 4% auto;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+
+  .avatar img {
+    width: 450px;
+    height: 489.13px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  ul {
+    line-height: 1.8em;
+  }
+
+  p, li {
+    font-size: 1.2em;
+  }
+
+  .about {
+    margin: .75% auto;
+    width: 900px;
+  }
+  
+  .skills {
+    margin: .75% auto;
+    width: 900px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  header {
+    margin: 4.75% auto;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  nav a {
+    font-size: 1em;
+  }
+
+  .avatar img {
+    width: 400px;
+    height: 434.78px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  ul {
+    line-height: 1.8em;
+  }
+
+  p, li {
+    font-size: 1.2em;
+  }
+
+  .about {
+    margin: 1% auto;
+    width: 650px;
+  }
+  
+  .skills {
+    margin: 1% auto;
+    width: 650px;
+  }
+}
+
+@media (max-width: 770px) {
+
+  header {
+    margin: 4% auto;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  .avatar img {
+    width: 400px;
+    height: 434.78px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4% auto;
+  }
+
+  ul {
+    line-height: 1.8em;
+  }
+
+  p, li {
+    font-size: 1.2em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 500px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 500px;
+  }
+}
+
+@media (max-width: 570px) {
+  
+  h1 {
+    font-size: 1.7em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  nav a {
+    margin: 2.5% 1.5%;
+    font-size: 0.75em;
+  }
+
+  .avatar img {
+    width: 250px;
+    height: 271.74px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4% auto;
+  }
+
+  ul {
+    line-height: 1.4em;
+  }
+
+  p, li {
+    font-size: 0.85em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 350px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  
+  h1 {
+    font-size: 1.85em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  nav a {
+    margin: 2.5% 1%;
+    font-size: 1.15em;
+  }
+
+  .avatar img {
+    width: 210px;
+    height: 228.26px;
+  }
+
+  ul {
+    line-height: 1.9em;
+  }
+
+  p, li {
+    font-size: 1.1em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 300px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  
+  h1 {
+    font-size: 1.2em;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  nav a {
+    margin: 2.5% 1%;
+    font-size: .75em;
+  }
+
+  .avatar img {
+    width: 210px;
+    height: 228.26px;
+  }
+
+  ul {
+    line-height: 1.15em;
+  }
+
+  p, li {
+    font-size: .75em;
+  }
+
+  .about {
+    margin: 2% auto;
+    width: 275px;
+  }
+  
+  .skills {
+    margin: 2% auto;
+    width: 275px;
+  }
+}

@@ -1,0 +1,44 @@
+.contact {
+  margin: 5% auto;
+}
+
+.contact div {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.contact img {
+  width: 30px;
+  height: 30px;
+  margin: 0 20px 0 40px;
+}
+
+.contact a,
+span {
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25em;
+  color: rgb(85, 85, 85);
+  line-height: 2em;
+}
+
+.contact a:hover {
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+}
+
+.contact a:active {
+  text-decoration: none;
+  color: rgb(85, 85, 85);
+}
+
+@media (max-width: 770px) {
+  .contact {
+    margin: 10% auto;
+  }
+  .contact a,
+  span {
+    font-size: 1.15em;
+  }
+}
